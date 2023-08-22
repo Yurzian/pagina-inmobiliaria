@@ -1,0 +1,21 @@
+@import "fonts";
+@import "header";
+@import "main";
+@import "footer";
+@import "login";
+@import "galeria";
+
+* {
+    max-width: 100%;
+}
+.body {
+    background-color: #ebf1fe;
+    height: 100vh;
+}
+.login {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../fotos/casamain.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: 50%;
+}
+

@@ -1,0 +1,62 @@
+.login {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    min-height: 100vh;
+
+    .formLogin {
+        color:white;
+        width: 500px;
+        max-width: 500px;
+        background: rgba(231, 188, 176, .6);
+        backdrop-filter: blur(5px);
+        border: 1.5px solid rgba(209, 213, 219, 0.3);
+        padding: 0;
+        border-radius: 30px;
+        
+        h2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            background: rgba(237, 136, 108, 0.4);
+            backdrop-filter: blur(5px);
+            border: 1.5px solid rgba(209, 213, 219, 0.3);
+            margin:0;
+            border-radius: 30px 30px 0 0 ;
+        }
+
+        form {
+            margin:30px;
+            display: flex;
+            align-items: center;
+            flex-flow: column wrap;
+            min-height: 300px;
+        }
+
+        .error {
+            margin-top: 40px;
+            color:red;
+            font-weight: bolder
+
+        }
+
+        .btnRegistrar{
+            background-color: red;
+            color:white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 100px;
+        }
+    }
+
+    .btnVolver {
+        top: 40px;
+        background-color: green;
+        color:white;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 100px;
+    }
+}

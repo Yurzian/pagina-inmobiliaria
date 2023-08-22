@@ -1,0 +1,120 @@
+.main {
+    .espacio {
+        height: 215px;
+    }
+
+    .introCasa {
+        margin-top: 10px;
+        margin-right: 2%;
+        margin-left: 2%;
+        height: 650px;
+        background-image: url(../fotos/casamain.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .row1 {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .img1 {
+        flex: 1 1 40%;
+    }
+
+    .texto1 {
+        flex: 1 1 40%;
+        display: flex;
+        justify-content: center;
+        flex-flow: column wrap;
+        width: 80%;
+        h1{
+            font-weight: 600;
+        }
+        p{
+            margin-top: 20px;
+            margin-right: 30px;
+            color:grey;
+        }
+        button{
+            margin-top: 30px;
+            width: 200px;
+        }
+    }
+
+    .texto2 {
+        text-align: center;
+        margin-top: 150px;
+
+        h2 {
+            font-weight: bolder;
+        }
+
+        .tarjetas {
+            margin-top: 100px;
+        }
+
+        .tarjeta {
+            margin-left: 10px;
+            margin-right: 10px;
+
+            h4{
+               font-weight: bold;
+               color: #ED886C;
+            }
+            p {
+                margin-top: 30px;
+                color:grey;
+            }
+        }
+    }
+
+    .tiposViviendas {
+        text-align: center;
+        margin-top: 100px;
+        padding-top: 60px;
+        background-color: #EFEFEF;
+        
+        h2{
+            font-weight: bolder;
+        }
+        .opciones {
+            margin-top: 20px;
+        }
+
+        .opcion {
+            max-width: 900px;
+            margin: 50px;
+            height: 800px;
+            background-size: cover;
+            color: white;
+            font-weight: bolder;
+            font-size: 20px;
+            text-decoration: none;
+            filter: brightness(90%);
+        }
+        
+        .zoom {
+            transition: transform 0.2s ease;
+        }
+        
+        .zoom:hover {
+            transform: scale(1.1);
+          }
+        
+    }
+
+
+}
+
+@media all and (max-width: 1150px) {
+
+    .img1 {
+        flex: 1 1 100%;
+    }
+
+    .texto1 {
+        flex: 1 1 100%;
+    }
+}
